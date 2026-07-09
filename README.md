@@ -19,6 +19,10 @@ curl -X POST "https://api-pcsxsiam.xdr.us.paloaltonetworks.com/xsoar/public/v1/j
   -H "Content-Type: application/json" \
   -d '{"page": 0, "size": 20, "query": "87bb5ddf-d0db-41a6-bafe-3f9d48fe07e5", "sort": [{"field": "id", "asc": true}]}'| jq
 
+
+Included in the Jobs directory are a couple of examples:
+. Time triggered
+
 <details>
   <summary>Sample output</summary>
 
