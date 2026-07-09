@@ -133,8 +133,8 @@ curl -X POST "https://api-pcsxsiam.xdr.us.paloaltonetworks.com/xsoar/public/v1/j
       "isAllFeeds": false,
       "jobSchedulingKey": "xsoar-job-13e5c58c-f5d4-40c1-a3f2-9978d49d47b5"
     }
+}
   ```
 </details>
 
 
-}
