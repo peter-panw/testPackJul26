@@ -1,6 +1,6 @@
 {
-    "id": "Scheduled Job every 3 minutes (runs playbook)",
-    "name": "Scheduled Job every 3 minutes (runs playbook)",
+    "id": "scheduled_every_3_mins",
+    "name": "scheduled_every_3_mins",
     "details": "Schedules the playbook pcurrie_create_list.",
     "type": "Scheduled playbook",
     "scheduled": true,
