@@ -1,0 +1,13 @@
+{
+    "id": "Scheduled Job every 3 minutes (runs playbook)",
+    "name": "Scheduled Job every 3 mins name",
+    "details": "Schedules the playbook pcurrie_create_list.",
+    "type": "Scheduled playbook",
+    "scheduled": true,
+    "cronView": true,
+    "playbookId": "pcurrie_create_list",
+    "fromVersion": "6.8.0",
+    "isFeed": false,
+    "selectedFeeds": [],
+    "isAllFeeds": false
+}
