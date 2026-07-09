@@ -100,5 +100,6 @@
     "isFeed": false,
     "selectedFeeds": [],
     "isAllFeeds": false,
-    "jobSchedulingKey": ""
+    "jobSchedulingKey": "",
+    "marketplaces": ["xsoar", "marketplacev2"]
   }
