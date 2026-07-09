@@ -1,11 +1,9 @@
 adopted: true
-description: create a list from a playbook
-id: 'a5b74d4d-5a48-4394-88b8-bb9717b9a643'
+description: create a list from a playbook.
+id: 'silent-pcurrie_create_list'
 inputs: []
-name: pcurrie_create_list
-outlinetasks: {}
+name: silent-pcurrie_create_list
 outputs: []
-possibleresponses: []
 quiet: true
 starttaskid: "0"
 tasks:
@@ -26,10 +24,9 @@ tasks:
       brand: ""
       id: b8076caf-7d46-4082-862f-1b48349c7d9a
       iscommand: false
-      istaskmissingcomponenterrordismissed: false
       name: ""
-      playbooktaskmissingcomponent: null
       version: -1
+      description: ''
     taskid: b8076caf-7d46-4082-862f-1b48349c7d9a
     timertriggers: []
     type: start
@@ -63,9 +60,7 @@ tasks:
       description: commands.local.cmd.list.create
       id: 33701fd6-dad1-41c7-ab72-77b542613a04
       iscommand: true
-      istaskmissingcomponenterrordismissed: false
       name: Create a list
-      playbooktaskmissingcomponent: null
       script: Builtin|||createList
       type: regular
       version: -1
@@ -100,9 +95,7 @@ tasks:
       description: commands.local.cmd.list.get
       id: 7aaff8f6-384e-4edc-8cff-41e67bc0dbc5
       iscommand: true
-      istaskmissingcomponenterrordismissed: false
       name: Display a list
-      playbooktaskmissingcomponent: null
       script: Builtin|||getList
       type: regular
       version: -1
@@ -139,9 +132,7 @@ tasks:
       description: commands.local.cmd.list.add
       id: 0d5e1fe8-a93b-45a3-8874-d4b99ec4968e
       iscommand: true
-      istaskmissingcomponenterrordismissed: false
       name: Add elements to list
-      playbooktaskmissingcomponent: null
       script: Builtin|||addToList
       type: regular
       version: -1
@@ -176,9 +167,7 @@ tasks:
       description: commands.local.cmd.list.get
       id: dc750d4f-ff80-4e14-888c-64676c1a2d21
       iscommand: true
-      istaskmissingcomponenterrordismissed: false
       name: Display a list
-      playbooktaskmissingcomponent: null
       script: Builtin|||getList
       type: regular
       version: -1
@@ -215,9 +204,7 @@ tasks:
       description: commands.local.cmd.list.remove
       id: ce9cad02-c392-4f3f-af3b-58db1ee7113a
       iscommand: true
-      istaskmissingcomponenterrordismissed: false
       name: Remove elements to list
-      playbooktaskmissingcomponent: null
       script: Builtin|||removeFromList
       type: regular
       version: -1
@@ -249,9 +236,7 @@ tasks:
       description: commands.local.cmd.list.get
       id: 779bcb82-f4d0-4789-850e-1dfbf60d3b47
       iscommand: true
-      istaskmissingcomponenterrordismissed: false
       name: Display a list
-      playbooktaskmissingcomponent: null
       script: Builtin|||getList
       type: regular
       version: -1
@@ -278,3 +263,7 @@ view: |-
       }
     }
   }
+tests:
+- No tests (auto formatted)
+issilent: true
+fromversion: 8.9.0
