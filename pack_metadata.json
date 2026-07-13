@@ -13,9 +13,10 @@
     "useCases": [],
     "keywords": [],
     "marketplaces": [
-        "xsoar",
-        "marketplacev2"
+        "marketplacev2",
+        "xsoar"
     ],
+    "supportedModules":["xsiam"],
     "firstCreated": "2026-07-08T15:11:11Z",
     "githubUser": []
 }
