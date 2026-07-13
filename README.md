@@ -146,4 +146,8 @@ Included in the Jobs directory are a couple of examples:
   ```
 </details>
 
+## Correlation Rule
+
+I copied it from https://github.com/demisto/content/blob/4264d25829a6beaf5d5cc7eba8bbc18b8ba98b49/Packs/Dropbox/CorrelationRules/Dropbox_-_Massive_File_Downloads.yml#L4 as I could not download it from demisto-sdk download, and when I use the export and copy the file it did not like the formatting, but maybe i just pasted wrong?
+
 
