@@ -1,0 +1,81 @@
+{
+  "dashboards_data": [
+    {
+      "name": "pcurrie_correlations_auditing_dashboard3",
+      "description": "pcurrie Correlations_auditing dashboard",
+      "status": "ENABLED",
+      "layout": [],
+      "global_id":"",
+      "default_dashboard_id": null,
+      "metadata": {
+        "params": []
+      },
+      "dynamic_layout": [
+        {
+          "h": 2,
+          "w": 4,
+          "x": 0,
+          "y": 0,
+          "widget": {
+            "key": "xql_1783953727635",
+            "data": {
+              "type": "Custom XQL",
+              "height": 400,
+              "phrase": "dataset = correlations_auditing \n|sort desc _time\n|limit 100\n/*|comp count() as count by mac*/",
+              "time_frame": {
+                "to": 1783934569000,
+                "from": 1781342569000
+              },
+              "viewOptions": {
+                "type": "table",
+                "commands": []
+              },
+              "gridRawStorageInfo": {
+                "sort": null,
+                "coldefs": {},
+                "rowHeight": null,
+                "columnWidth": null
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "widgets_data": [
+    {
+      "widget_key": "xql_1783953727635",
+      "title": "pcurrie_correlations_auditing_widget",
+      "creation_time": 1783953727635,
+      "description": "shows 100 latest events in correlations_auditing",
+      "data": {
+        "phrase": "dataset = correlations_auditing \n|sort desc _time\n|limit 100\n/*|comp count() as count by mac*/",
+        "time_frame": {
+          "to": 1783934569000,
+          "from": 1781342569000
+        },
+        "viewOptions": {
+          "type": "table",
+          "commands": []
+        },
+        "gridRawStorageInfo": {
+          "sort": null,
+          "coldefs": {},
+          "rowHeight": null,
+          "columnWidth": null
+        }
+      },
+      "support_time_range": true,
+      "additional_info": {
+        "query_tables": [
+          "correlations_auditing"
+        ],
+        "query_uses_library": false
+      },
+      "creator_mail": "pcurrie@paloaltonetworks.com",
+      "is_public": false,
+      "is_predefined": false
+    }
+  ],
+  "name": "pcurrie_correlations_auditing_dashboard2"
+}

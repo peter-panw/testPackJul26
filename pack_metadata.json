@@ -14,7 +14,8 @@
     "keywords": [],
     "marketplaces": [
         "marketplacev2",
-        "xsoar"
+        "xsoar",
+        "xsoar_saas"
     ],
     "supportedModules":["xsiam"],
     "firstCreated": "2026-07-08T15:11:11Z",
